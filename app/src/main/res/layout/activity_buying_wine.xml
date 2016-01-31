@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BuyingWineActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Overview" />
+
+        <TextView
+            android:id="@+id/buying_wine_textview"
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wine_buying_overview"/>
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Markets &amp; Shops" />
+
+        <TextView
+            android:id="@+id/buying_wine_shops"
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wine_buying_shops" />
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email Lists" />
+
+        <TextView
+            android:id="@+id/buying_wine_email"
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wine_buying_email" />
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wineries" />
+
+        <TextView
+            android:id="@+id/buying_wine_wineries"
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wine_buying_wineries" />
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wine Clubs" />
+
+        <TextView
+            android:id="@+id/buying_wine_clubs"
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wine_buying_clubs" />
+    </LinearLayout>
+</ScrollView>

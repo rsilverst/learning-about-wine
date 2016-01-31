@@ -1,0 +1,282 @@
+<resources>
+    <string name="app_name">Learning About Wine</string>
+    <string name="title_activity_buying_wine">Buying Wine</string>
+    <string name="title_activity_wine_types">Wine Types</string>
+    <string name="wine_tagging_overview">When storing wine, it is a good idea to tag each bottle
+        using a system that enables you to identify important information about the wine.
+        The most important information, of course, is whether or not it is okay to drink the wine now.
+        \n\nIt does not really matter what system you choose, as long as you can understand it easily.
+        In fact, there may be some advantages to having your code be intelligible only to you!
+    </string>
+
+    <string name="wine_tagging_example">Vintage\nPrice\nDrinking Window\nType of Wine\n\nBefore thinking about what goes on your tag, decide how
+        you will organize the wine physically on the shelves. This way, at least one of the parameters
+        above will already be baked into your storage system. For example, I organize my shelves by
+        wine type or region and then keep the info on the tag basically limited to info that will
+        inform my drinking decision, to avoid accidentally drinking something expensive, rare, or too young.
+    </string>
+
+    <string name="wine_racks">
+        There are many different types of wine racks available, in all shapes, sizes, and materials.
+        Amazon.com has countless options, and there are boutique manufacturers if you are looking for
+        something high-end or custom.\n\nThe main questions you need to answer for yourself are the following:\n\n
+        1) How much wine do you want to keep?\n
+        2) Do you want to display your wine?\n
+        3) How much do you want to spend?\n
+        4) Do you enjoy building things on your own?\n\nThe last point is worded specifically as "enjoy" because I strongly suggest you consider this
+        option only if you truly want to take the time to build something or learn to build something.
+        The reason I emphasize this is that you will likely not save money by building it on your own.
+        The cost of even basic materials, such as plywood, when all is said and done, will likely end
+        up being more expensive for a given amount of storage than if you purchase something online.
+        And to do this well, you need to design (carefully, including very precise measurements),
+        purchase materials, which can be tedious, and then patiently build it, adjusting your plans
+        along the way, as you inevitably realize that things are not just right.\n\nIf you do decide to build it yourself, the most important thing to keep in mind is load bearing
+        capacity, because wine is not weightless. A bottle of wine will weigh between 2-3 pounds. So
+        each shelf will end up with a load of approximately 2.5 pounds per inch of width. A shelf that
+        will have 10 bottles, therefore, should be able to support at least 25 pounds (of course, you
+        want to err way on the high side, probably designing for 50 pound load). Long story short, if
+        you do not want to think about this, do not do it yourself!\n\nOne more thing to keep in mind:
+        if you live in a region that is known for earthquakes, be sure to provide proper bracing for
+        the racks. If your bottles are lying flat, make sure to have something that keeps them from
+        coming out of the front or back of the rack.
+    </string>
+
+    <string name="storage_conditions">There are countless websites that will give you pages and pages of information about proper
+        storage conditions. I suggest you Google "wine storage conditions" and read a bit. One thing
+        you will realize is that there is a wide range of opinions about what you need to do. There is
+        no dispute about what the ideal conditions are. The dispute is about the allowed variance from
+        that ideal. I am going to assert that the resources that are declaring that military-grade
+        specifications are required (for example, \u00b11 \u2109) are either paranoid with
+        no real data, or trying to sell you controlled storage.\n\nHere I will tell you about each of
+        the criteria that are well-established. Then you can decide for yourself:\n\n<b>Temperature</b>\nThe
+        ideal storage temperature for long-term storage is generally agreed to be between 50-59 \u2109.
+        It is also generally agreed that prolonged storage at temperatures above 80 \u2109 will have a
+        significant impact on the chemical properties of the wine, and detrimental to the prolonged
+        quality. It is also agreed that large fluctuations in temperature are not good, both because
+        of the affect on the wine, as well as the cork stability. As for what happens in the temperature
+        range between? Opinions vary. Perhaps the most important anecdote I have read on this topic
+        was from a famous wine maker in the Bordeaux region of France. They stated that their wines
+        are stored in a natural cave cellar, and the temperature would vary seasonally between 45-75 \u2109
+        with no identifiable detrimental effects on the wine over long term. So do not worry excessively,
+        especially if you are realistically planning to drink your wine within 5-15 years. My goal,
+        personally, is to keep my wine below 65 \u2109.\n\n<b>Humidity</b>\nIdeal storage conditions are generally
+        stated to be around 70% humidity. The reason is to prevent cork drying out and losing its seal.
+        But humidity is not critical, and a wide range should be fine. Too high, and you may have mold
+        in your storage area. Too low, and corks may dry out. If you are worried it is too low, keep a
+        pan of water or humidifier in the room. If too high, a dehumidifier is the best option (professional
+        temperature-controlled storage areas take care of this).\n\n<b>Light</b>\nThis one is short and simple:
+        dark is better than light. It is not good for the wine (though dark bottles mitigate this). Enough
+        said.\n\n<b>Orientation</b>\nAs mentioned in the Wine Rack section, bottles should either be laid flat, or
+        at a slight angle such that the cork has some air and some wine (top of bottle a bit higher than
+        bottom of bottle.\n\n<b>Stability/Vibration</b>\nIt is said that a lot of shaking is not good, because it
+        can cause sediment to move around and affect the aging process. Who is going to shake their wines?
+    </string>
+
+    <string name="drinking_wine_page_overview">There is <i>tasting</i> wine. And there is <i>drinking</i> wine. When we think about tasting wine, this is a process
+        of quantitative and qualitative analysis. Wine tasting, while definitely not an exact science, has a
+        number of criteria or parameters that are intended to help us categorize things and understand them.
+        There is a sense of geography (region) and geology (terroir). Wine drinking is much about the art and
+        pleasure of wine, involving how it stands on its own, how it pairs with food, how it makes one feel, etc.
+        In the sections below, I will say just a little about each of these, as well as providing some links to
+        resources that I have found helpful.
+    </string>
+
+    <string name="wine_drinking_overview">I am sure you can find countless pompous blogs online that will tell you exactly how to put the wine in your mouth,
+        as if you have never consumed a beverage before. I am also sure you can find plenty of aficionados who will explain to you
+        that Pinot Noir will taste like Ginger Ale if you do not drink it out of a Burgundy glass. For some people maybe it is true. I
+        will tell you this: the power of suggestion is quite powerful, and if you believe that glass is going to make your wine taste
+        better, I guarantee you it will.\n\nOne of the most amazing things to me about wine is how much of its enjoyment relates to the
+        state of mind we are in when we drink it. The company. The food. The event. The time of day. The time of year. It all matters. Maybe.
+        \n\nMost of the time, red wine will be better if decanted than if you pour directly from the bottle. This is not an absolute statement, but a
+        reasonable generalization. Furthermore, many wines will be better if, after decanting, they are allowed to breathe for a while. Here is
+        where the art comes into play. It may be that 30 minutes of decanting is perfect. Or it may be that 1-2 days of decanting is perfect. You
+        can make some guesses based on the age of the wine, and type of wine, but it will be trial and error. One thing that can be very useful
+        in this situation are websites that have customer reviews of wines, such as <a href="http://www.cellartracker.com">Cellar Tracker</a>, because
+        you can often find a lengthy history of what others have recently said regarding the readiness of the wine. The upside is that it can be useful
+        info. The downside is that some of the opinions may not reflect your tastes, and there is always the power of suggestion, ruining a little
+        of the mystery and surprise of trying a new wine (if you read that you are going to taste dark cherries, you are probably more likely to
+        identify dark cherries).
+    </string>
+
+    <string name="wine_tasting_overview">Wine tasting can be as casual or as granular as you want it to be. There are
+        four main criteria to think about when evaluating wine. I will not go into them in detail here, but will give you
+        a quick description, and then a link to one of my favorite websites that says more about it.\n\n<b>Appearance</b>\nOne
+        can tell a lot about a wine based just on how it looks. This consists of color, clarity, and
+        viscosity (how the wine moves in the glass). Generally, all wine, whether it be red or white, will take on more of a
+        brownish hue as it ages.\n\n<b>Aroma</b>\nThis is where all the action is. The primary aromas come from the grapes
+        themselves; secondary aromas come from the fermentation process; tertiary aromas come from the aging process.\n\n<b>Taste</b>\nThe
+        first part of the taste of wine is the "Flavor," which is basically the in-mouth representation of the aroma. It often is very similar
+        to what you picked up on the nose, but there can be interesting and surprising variations. The next component of taste
+        is what is referred to as "Structure" of the wine. It comprises 5 basic components: (1) Sweetness, (2) Body (mouth-feel),
+        (3) Alcohol (often perceived as heat), (4) Acidity (tartness/crispness), and (5) tannin (perceived on the tongue as an
+        astringent feeling, and often prominent in young red wines; comes primarily from things like skin and stems of grapes).
+        The final component of the taste of the wine is referred to as "Profile," which we think of as how these elements of taste
+        evolve from the initial moment the wine hits the palate, on to the lingering after-effects in the mouth (the finish).
+    </string>
+
+    <string name="wine_aroma_wheel">I really have not done justice to this at all, but Wine Folly is a fantastic website that
+        goes into much more detail, and I highly recommend looking at their detailed guide to <a href="http://winefolly.com/review/how-to-taste-wine-develop-palate/">Tasting Wine</a>.
+        To help identify the different odors and tastes in wine, there have been many different variants on what
+        is called an "Aroma Wheel" that break these into different categories, according to the type of wine, and
+        the groupings of scents (e.g. fruits, vegetebles, defects, etc.) that are commonly detected. You can see a
+        nice example of an Aroma Wheel at the <a href="http://winefolly.com/wp-content/uploads/2014/08/Wine-Aroma-Flavor-Chart-Wheel.jpg">Wine Folly</a> website.</string>
+
+    <string name="wine_pairing_overview">Wine Pairing is the art (or science) of identifying which types of wine will be
+        best enjoyed with which types of food. Much of it is logic, and there are some basic rules of thumb. Delicate wines
+        pair well with delicate foods. Bold, spicy, or tannic wines pair well with things that are rich, fatty, creamy, because
+        the food mellows the wine. The latter fact can be very useful if you want to drink a great wine that is perhaps a bit young
+        (tannins mellow as they age, making wine smoother, less astringent). I will not bore you with the long lists of recommended
+        pairings. Instead I will, once again, point you to Wine Folly, my favorite site, for their page that is dedicated to
+        <a href="http://winefolly.com/review/simple-food-and-wine-pairing/">wine pairings</a>.
+    </string>
+
+        <string name="wine_buying_overview">There is no shortage of places to find wine, but finding good wine is a different story.
+            In short, the options include the following:\n\nLocal Markets and Wine Shops\nEmail Lists\nWineries (in-person or online direct
+            purchase)\nWine Clubs (via wineries or markets)\n\nThe following sections say a little bit more about each of these options,
+            including some examples (with the local options listed for the Seattle Area).
+            </string>
+
+    <string name="wine_buying_shops">Most major cities have at least a few higher-end supermarkets that have a good wine section.
+            Even more mid-range supermarkets may have a good selection, but you are often left playing a guessing game of whether a wine
+            will be good or not, and there will be nobody to ask. If your city or town has a wine shop, that is always an excellent bet,
+            because the staff can make recommendations, and you can build up a relationship over time that can go a long way toward always
+            being able to find things that you will like. Even better is that, once you have this relationship, you will likely find it easy to
+            return a wine if you have a problem.\n\n
+
+        <b>Recommended Markets</b>:\n
+        PCC\n
+        Whole Foods\n
+        Ballard Market\n
+        QFC (some)\n
+        DeLaurenti\n\n
+        <b>Recommended Wine Shops</b>:\n
+        Pike &amp; Western Wine Shop\n
+        Madrona Wines\n
+        Esquin
+    </string>
+
+            <string name="wine_buying_clubs">Another decent avenue for purchasing wine is to join a wine club from your local wine shop or a winery that you like.
+                From local wine shops, this typically will involve receiving 2-3 selections a month that you can either pick up or have shipped. It is a good way to
+                learn about different types of wine, and the wines usually will be provided to you with some type of tasting notes, which will further help your education.
+                Wine lists like this usually offer either a Red, White, or Combination option. Some shops have a budget offering as well as a higher-end offering.\n\nJoining
+                a wine club from a winery that you have enjoyed is an excellent way to gain easy repeat access to wine that you have tried and loved. They usually
+                offer a nice discount, they often give members limited offerings that are only available to club members, and it is a great way to learn about the subtle
+                differences in a wine from one place, by one producer, as it varies from year to year. Many winery-based wine clubs offer all kinds of other perks, such as
+                dinners at the winery, special events, etc. that can be fun if you are able to visit the winery periodically.\n\n
+                <b>Recommended Wine Shop Clubs</b>:\n
+                Pike and Western Wine Shop\n
+                Madrona Wines\n\n
+                <b>Recommended Washington Wine Clubs</b>:\n
+                Isenhower Cellars\n
+                Tertulia Cellars\n
+                Sleight of Hand Cellars\n
+                Saviah Cellars
+            </string>
+
+    <string name="wine_buying_email">Yet another avenue that can be work well are email lists. An email list will have periodic (sometimes daily or even twice-a-day offers)
+            that arrive straight to your inbox. You read the offer, decide if it is interesting, and then reply or click a link to place an order.
+            The assumptions here are as follows: (1) The curators of the list know something about what is good and are steering you in the
+            right direction, (2) You are hopefully paying a better price than you would in a market, (3) You will have information about the wine
+            beyond what you would typically have at your fingertips at a market. All of these are good reasons to consider a list. There are a few
+            downsides to mailing lists: (1) Sometimes the wine is not good, (2) Sometimes the wine will be sold out before they can fill your order,
+            (3) Sometimes the price is actually not as good as the market, (4) You will either need to pay for shipping, or pick up the wine at a
+            limited range of times and dates, and (5) Often the wines are offered weeks or months before they arrive, so you may need to wait (the
+            last point can be a plus, actually, because the warehouses seem quite willing to sit on your wine for you).\n\n
+        <b>Recommended Email Lists</b>:\n
+        Garagiste (1-2 times daily)\n
+        Full Pull Wines (3-5 times a week)
+    </string>
+
+    <string name="wine_buying_wineries">This is not an option for everyone, at least not without travel involved. But if you happen to live in Washington,
+        Oregon, or Northern California, there is at least a reasonable chance that you can take a day trip to some local wineries. This can be quite a fun
+        (and expensive) experience. Most wineries will let you taste a handful of wines (usually between 4-8 types are open for tasting) for either a modest
+        fee, or no fee at all. And the vast majority of wineries waive the tasting fee entirely if you purchase a bottle of wine. If you like what you try, a
+        great plan is to join a wine club from the winery, so you can receive their wines regularly (see below). Again, this can get pricey if you get too
+        carried away. And then you will need to start thinking about where to store all this wine!\n\n
+        <b>Recommended Washington Wineries</b>\n
+        Saviah\n
+        Sleight of Hand\n
+        Trust\n
+        Darby\n
+        Bunnell\n
+        Charles Smith\n
+        Andrew Will\n
+        Maison Bleue\n
+        Proper\n
+        Isenhower\n
+        Tertulia
+    </string>
+
+    <string-array name="complete_list">
+        <item>Aglianico,true,true,false,false,true,false,false,true,false,false,false,false,false</item>
+        <item>Albarino,true,false,false,true,true,true,false,false,true,false,false,false,false</item>
+        <item>Alicante,true,true,false,false,true,false,false,false,false,false,false,false,false</item>
+        <item>Arneis,true,false,false,true,true,false,false,true,false,false,false,false,false</item>
+        <item>Barbera,true,true,false,false,true,false,false,true,false,false,false,false,false</item>
+        <item>Blaufränkisch,true,true,false,false,true,false,false,false,false,false,true,false,false</item>
+        <item>Bobal,true,true,false,false,true,false,false,false,true,false,false,false,false</item>
+        <item>Bonarda,true,true,false,false,true,false,false,false,false,false,false,false,false</item>
+        <item>Cabernet Franc,true,true,true,false,true,true,true,false,false,false,false,false,false</item>
+        <item>Cabernet Sauvignon,true,true,true,false,true,true,true,true,true,false,false,true,true</item>
+        <item>Carignan,true,true,true,false,true,false,true,false,false,false,false,false,false</item>
+        <item>Carmenère,true,true,true,false,true,false,true,false,false,false,false,false,false</item>
+        <item>Chardonnay,true,false,false,true,true,true,true,true,true,false,false,true,true</item>
+        <item>Chenin Blanc,true,false,false,true,true,true,true,false,false,false,false,false,false</item>
+        <item>Cinsault,true,true,true,false,true,false,true,false,false,false,false,false,false</item>
+        <item>Corvina,true,true,false,false,true,false,false,true,false,false,false,false,false</item>
+        <item>Dolcetto,true,true,false,false,true,false,false,true,false,false,false,false,false</item>
+        <item>Gamay,true,true,true,false,true,false,true,false,false,false,false,false,false</item>
+        <item>Gewürztraminer,true,false,false,true,true,true,true,true,false,true,false,true,true</item>
+        <item>Graciano,true,true,false,false,true,false,false,false,true,false,false,false,false</item>
+        <item>Grenache,true,true,true,false,true,true,true,false,true,false,false,true,false</item>
+        <item>Gruner Veltliner,true,false,false,true,true,false,false,false,false,false,true,false,false</item>
+        <item>Malbec,true,true,true,false,true,true,true,false,false,false,false,true,false</item>
+        <item>Malvasia,true,false,false,true,true,false,false,false,true,false,false,false,false</item>
+        <item>Marsanne,true,false,false,true,true,true,true,false,false,false,false,true,false</item>
+        <item>Mencia,true,true,false,false,true,false,false,false,true,false,false,false,false</item>
+        <item>Merlot,true,true,true,false,true,true,true,false,true,false,false,true,true</item>
+        <item>Montepulciano,true,true,true,false,true,false,false,true,false,false,false,false,true</item>
+        <item>Mourvedre,true,true,true,false,true,true,true,false,true,false,false,true,false</item>
+        <item>Muller-Thurgau,true,false,false,true,true,false,false,false,false,true,true,false,false</item>
+        <item>Muscadet,true,false,false,true,true,false,true,false,false,false,false,false,false</item>
+        <item>Muscat,true,false,false,true,true,true,true,true,true,false,false,true,false</item>
+        <item>Nebbiolo,true,true,false,false,true,false,false,true,false,false,false,false,false</item>
+        <item>Petit Verdot,true,true,true,false,true,true,true,false,false,false,false,true,false</item>
+        <item>Petite Sirah,true,true,false,false,true,true,true,false,false,false,false,true,false</item>
+        <item>Pinot Grigio,true,false,true,true,true,true,true,false,false,true,true,true,true</item>
+        <item>Pinot Noir,true,true,true,false,true,true,true,false,true,true,false,true,true</item>
+        <item>Primitivo (Zinfandel),true,true,false,false,true,true,false,true,false,false,false,false,false</item>
+        <item>Riesling,true,false,false,true,true,true,false,false,false,true,true,true,true</item>
+        <item>Roussanne,true,false,false,true,true,true,true,false,false,false,false,false,false</item>
+        <item>Sangiovese,true,true,true,false,true,true,false,true,false,false,false,true,true</item>
+        <item>Sauvignon Blanc,true,false,false,true,true,true,true,true,true,false,false,true,true</item>
+        <item>Semillon,true,false,false,true,true,true,true,false,false,false,false,true,false</item>
+        <item>Syrah (Shiraz),true,true,false,false,true,true,true,false,true,false,false,true,true</item>
+        <item>Tempranillo,true,true,true,false,true,true,false,false,true,false,false,true,true</item>
+        <item>Torrontes,true,false,false,true,true,false,false,false,true,false,false,false,false</item>
+        <item>Trebbiano,true,false,true,true,true,false,false,true,false,false,false,false,false</item>
+        <item>Verdejo,true,false,false,true,true,false,false,false,true,false,false,false,false</item>
+        <item>Vermentino,true,false,false,true,false,false,false,true,false,false,false,false,false</item>
+        <item>Viognier,true,false,false,true,true,true,true,false,false,false,false,true,false</item>
+        <item>Zweigelt,true,true,false,false,true,false,false,false,false,false,true,false,false</item>
+    </string-array>
+
+    <string-array name="types_spinner_elements">
+        <item>All</item>
+        <item>Red</item>
+        <item>Rose</item>
+        <item>White</item>
+    </string-array>
+
+    <string-array name="regions_spinner_elements">
+        <item>All</item>
+        <item>USA</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Spain</item>
+        <item>Germany</item>
+        <item>Austria</item>
+        <item>Australia</item>
+        <item>New Zealand</item>
+    </string-array>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StoringWineActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Overview" />
+
+        <TextView
+            android:id="@+id/wine_drinking_overview_text"
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drinking_wine_page_overview" />
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tasting Wine" />
+
+        <TextView
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wine_tasting_overview" />
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drinking Wine" />
+
+        <TextView
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wine_drinking_overview" />
+
+        <TextView
+            android:id="@+id/aroma_wheel_view"
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wine_aroma_wheel" />
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wine Pairing" />
+
+        <TextView
+            android:id="@+id/wine_pairing_overview_text"
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wine_pairing_overview" />
+
+    </LinearLayout>
+
+</ScrollView>

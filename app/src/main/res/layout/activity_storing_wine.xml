@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StoringWineActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Overview" />
+
+        <TextView
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wine_tagging_overview" />
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Possible Info For Tags" />
+
+        <TextView
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wine_tagging_example" />
+
+        <Button
+            style="@style/small_button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:onClick="displayTaggingWine"
+            android:text="Tagging Example" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wine Racks" />
+
+        <TextView
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/wine_racks" />
+
+        <TextView
+            style="@style/content_header_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Storage Conditions" />
+
+        <TextView
+            style="@style/body_text_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/storage_conditions" />
+
+    </LinearLayout>
+
+</ScrollView>

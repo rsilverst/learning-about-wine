@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".TaggingWineActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/vintage_value"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:hint="Enter a year"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/vintage_text"
+            android:layout_width="wrap_content"
+            android:layout_height="36sp"
+            android:layout_toLeftOf="@id/vintage_value"
+            android:gravity="center_vertical"
+            android:text="Vintage"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/drinking_start_value"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_below="@id/vintage_value"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:hint="Enter a year"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/start_drinking_text"
+            android:layout_width="wrap_content"
+            android:layout_height="36sp"
+            android:layout_below="@id/vintage_text"
+            android:layout_toLeftOf="@id/drinking_start_value"
+            android:gravity="center_vertical"
+            android:text="Start Drinking"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/drinking_finish_value"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_below="@id/drinking_start_value"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:hint="Enter a year"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/finish_drinking_text"
+            android:layout_width="wrap_content"
+            android:layout_height="36sp"
+            android:layout_below="@id/start_drinking_text"
+            android:layout_toLeftOf="@id/drinking_finish_value"
+            android:gravity="center_vertical"
+            android:text="Finish Drinking"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/price_value"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
+            android:layout_below="@id/drinking_finish_value"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:hint="Enter price"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_below="@id/finish_drinking_text"
+            android:layout_toLeftOf="@id/price_value"
+            android:gravity="center_vertical"
+            android:text="Price"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+    <Button
+        style="@style/small_button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="checkLabelInput"
+        android:text="Create Label" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/circular_label"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="16dp"
+            android:background="@drawable/circle_green" />
+
+        <TextView
+            android:id="@+id/vintage_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/circular_label"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="year"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/label_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="code"
+            android:textSize="48sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
