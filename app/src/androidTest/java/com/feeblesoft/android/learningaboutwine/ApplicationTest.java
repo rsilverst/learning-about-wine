@@ -1,4 +1,4 @@
-package com.example.android.learningaboutwine;
+package com.feeblesoft.android.learningaboutwine;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

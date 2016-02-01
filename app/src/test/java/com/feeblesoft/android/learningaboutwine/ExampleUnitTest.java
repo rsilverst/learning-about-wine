@@ -1,4 +1,4 @@
-package com.example.android.learningaboutwine;
+package com.feeblesoft.android.learningaboutwine;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.example.android.learningaboutwine;
+package com.feeblesoft.android.learningaboutwine;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

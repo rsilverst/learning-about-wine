@@ -6,7 +6,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
     defaultConfig {
-        applicationId "com.example.android.learningaboutwine"
+        applicationId "com.feeblesoft.android.learningaboutwine"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1

@@ -5,36 +5,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.learningaboutwine.MainMenuActivity">
+    tools:context="com.feeblesoft.android.learningaboutwine.MainMenuActivity">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
         android:layout_marginBottom="4dp"
+        android:layout_weight="1"
         android:background="@drawable/types_of_wine"
         android:onClick="displayWineTypes"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_marginTop="4dp"
         android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
         android:background="@drawable/buying_wine"
         android:onClick="displayBuyingWine"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:layout_marginTop="4dp"
         android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="1"
         android:background="@drawable/drinking_wine"
         android:onClick="displayDrinkingWine"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
         android:layout_marginTop="4dp"
+        android:layout_weight="1"
         android:background="@drawable/storing_wine"
         android:onClick="displayStoringWine"/>
     <Space

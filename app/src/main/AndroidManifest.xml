@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.learningaboutwine">
+    package="com.feeblesoft.android.learningaboutwine">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/law_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         >
 
-        <activity android:name=".MainMenuActivity">
+        <activity android:name="com.feeblesoft.android.learningaboutwine.MainMenuActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,48 +19,48 @@
         </activity>
 
         <activity
-            android:name=".WineTypesActivity"
+            android:name="com.feeblesoft.android.learningaboutwine.WineTypesActivity"
             android:label="@string/title_activity_wine_types"
-            android:parentActivityName=".MainMenuActivity">
+            android:parentActivityName="com.feeblesoft.android.learningaboutwine.MainMenuActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.learningaboutwine.MainMenuActivity" />
+                android:value="com.feeblesoft.android.learningaboutwine.MainMenuActivity" />
         </activity>
 
         <activity
-            android:name=".BuyingWineActivity"
+            android:name="com.feeblesoft.android.learningaboutwine.BuyingWineActivity"
             android:label="@string/title_activity_buying_wine"
-            android:parentActivityName=".MainMenuActivity">
+            android:parentActivityName="com.feeblesoft.android.learningaboutwine.MainMenuActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.learningaboutwine.MainMenuActivity" />
+                android:value="com.feeblesoft.android.learningaboutwine.MainMenuActivity" />
         </activity>
 
         <activity
-            android:name=".DrinkingWineActivity"
+            android:name="com.feeblesoft.android.learningaboutwine.DrinkingWineActivity"
             android:label="Drinking Wine"
-            android:parentActivityName=".MainMenuActivity">
+            android:parentActivityName="com.feeblesoft.android.learningaboutwine.MainMenuActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.learningaboutwine.MainMenuActivity" />
+                android:value="com.feeblesoft.android.learningaboutwine.MainMenuActivity" />
         </activity>
 
         <activity
-            android:name=".StoringWineActivity"
+            android:name="com.feeblesoft.android.learningaboutwine.StoringWineActivity"
             android:label="Storing Wine"
-            android:parentActivityName=".MainMenuActivity">
+            android:parentActivityName="com.feeblesoft.android.learningaboutwine.MainMenuActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.learningaboutwine.MainMenuActivity" />
+                android:value="com.feeblesoft.android.learningaboutwine.MainMenuActivity" />
         </activity>
 
         <activity
-            android:name=".TaggingWineActivity"
+            android:name="com.feeblesoft.android.learningaboutwine.TaggingWineActivity"
             android:label="Example of Wine Tagging"
-            android:parentActivityName=".StoringWineActivity">
+            android:parentActivityName="com.feeblesoft.android.learningaboutwine.StoringWineActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.learningaboutwine.StoringWineActivity" />
+                android:value="com.feeblesoft.android.learningaboutwine.StoringWineActivity" />
         </activity>
     </application>
 
